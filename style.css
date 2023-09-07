@@ -1,0 +1,69 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: #000000;
+}
+
+.content {
+  position: relative;
+}
+
+.content h2 {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  font-size: 8em;
+}
+
+.content h2:nth-child(1) {
+  color: transparent;
+  -webkit-text-stroke: 2px #03a9f4;
+}
+
+.content h2:nth-child(2) {
+  color: #03a9f4;
+  -webkit-text-stroke: 2px #03a9f4;
+  animation: animate 4s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0%,
+  100% {
+    clip-path: polygon(
+      0 43%,
+      15% 46%,
+      29% 55%,
+      40% 63%,
+      53% 68%,
+      64% 68%,
+      78% 64%,
+      89% 57%,
+      100% 48%,
+      100% 99%,
+      0% 100%
+    );
+  }
+  50% {
+    clip-path: polygon(
+      0 54%,
+      14% 58%,
+      26% 65%,
+      40% 74%,
+      53% 74%,
+      67% 71%,
+      72% 59%,
+      83% 51%,
+      100% 45%,
+      100% 99%,
+      0% 100%
+    );
+  }
+}
