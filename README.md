@@ -14,12 +14,12 @@ cd path/to/your/directory
 ### Step 4: Clone the Repository
 Run the following command to clone the "Text-Water-Animation" repository:
 ```bash
-git clone https://github.com/hamzalodhi2023/testimonial-cards.git
+git clone https://github.com/hamzalodhi2023/Text-Water-Animation
 ```
 ### Step 5: Navigate to the Cloned Directory
 Move into the cloned "Text-Water-Animation" directory using the cd command:
 ```bash
-cd testimonial-cards
+cd Text-Water-Animation
 ```
 
 ## You have successfully cloned the repository! Feel free to explore the contents !! 👍
